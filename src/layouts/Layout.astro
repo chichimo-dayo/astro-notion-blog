@@ -50,7 +50,7 @@ if (database.Icon && database.Icon.Type === 'file') {
 ---
 
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
+<html lang="ja" prefix="og: https://ogp.me/ns#">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="max-image-preview:large" />
@@ -59,6 +59,7 @@ if (database.Icon && database.Icon.Type === 'file') {
     <title>{siteTitle}</title>
     <meta name="description" content={siteDescription} />
     <link rel="canonical" href={siteURL} />
+    <link rel="icon" href="/favicon.png">
     <meta property="og:url" content={siteURL} />
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={siteDescription} />
@@ -74,6 +75,7 @@ if (database.Icon && database.Icon.Type === 'file') {
       integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0"
       crossorigin="anonymous"
     />
+    <meta name="google-site-verification" content="972JIhI5n6XFQbrpzp0vfaks3YHmzWl1g4j6utL7bPw" />
   </head>
   <body>
     <GoogleAnalytics trackingId={PUBLIC_GA_TRACKING_ID} />
